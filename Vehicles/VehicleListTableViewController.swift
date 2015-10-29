@@ -24,7 +24,7 @@ class VehicleListTableViewController: UITableViewController {
         vehicles.removeAll(keepCapacity: true)
         
         // Create a car.
-        var mustang = Car()
+        let mustang = Car()
         mustang.brandName = "Ford"
         mustang.modelName = "Mustang"
         mustang.modelYear = 1968
@@ -38,7 +38,7 @@ class VehicleListTableViewController: UITableViewController {
         vehicles.append(mustang)
         
         // Create another car.
-        var outback = Car()
+        let outback = Car()
         outback.brandName = "Subaru"
         outback.modelName = "Outback"
         outback.modelYear = 1999
@@ -52,7 +52,7 @@ class VehicleListTableViewController: UITableViewController {
         vehicles.append(outback)
         
         // Create another car
-        var prius = Car()
+        let prius = Car()
         prius.brandName = "Toyota"
         prius.modelName = "Prius"
         prius.modelYear = 2002
@@ -76,7 +76,7 @@ class VehicleListTableViewController: UITableViewController {
         vehicles.append(harley)
         
         // Create another motorcycle
-        var kawasaki = Motorcycle()
+        let kawasaki = Motorcycle()
         kawasaki.brandName = "Kawasaki"
         kawasaki.modelName = "Ninja"
         kawasaki.modelYear = 2005
@@ -86,7 +86,7 @@ class VehicleListTableViewController: UITableViewController {
         self.vehicles.append(kawasaki)
         
         // Create a truck
-        var silverado = Truck()
+        let silverado = Truck()
         silverado.brandName = "Chevrolet"
         silverado.modelName = "Silverado"
         silverado.modelYear = 2011
@@ -98,7 +98,7 @@ class VehicleListTableViewController: UITableViewController {
         vehicles.append(silverado)
         
         // Create another truck
-        var eighteenWheeler = Truck()
+        let eighteenWheeler = Truck()
         eighteenWheeler.brandName = "Peterbilt"
         eighteenWheeler.modelName = "579"
         eighteenWheeler.modelYear = 2013
@@ -110,7 +110,7 @@ class VehicleListTableViewController: UITableViewController {
         vehicles.append(eighteenWheeler)
         
         // Sort the array by the model year
-        vehicles.sort { $0.modelYear < $1.modelYear }
+        vehicles.sortInPlace { $0.modelYear < $1.modelYear }
     }
   
     // MARK: - Segues
