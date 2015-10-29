@@ -25,8 +25,8 @@ extension UIAlertController {
         controller.addAction(UIAlertAction(title: "Cancel", style: .Cancel, handler: nil))
         
         controller.addAction(UIAlertAction(title: buttonTitle, style: .Default) { action in
-            let textFields = controller.textFields as? [UITextField]
-            let value = textFields?[0].text.toInt()
+            let textFields = controller.textFields
+            let value = Int((textFields?[0].text)!)
             handler(value)
             } )
         
