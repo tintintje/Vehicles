@@ -16,7 +16,8 @@
 		5DC89C8319BE289D00A75324 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC89C8219BE289D00A75324 /* Vehicle.swift */; };
 		FBB4BBD21BE2927100915F0C /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4BBD11BE2927100915F0C /* Car.swift */; settings = {ASSET_TAGS = (); }; };
 		FBB4BBD41BE2A57300915F0C /* Motorcycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4BBD31BE2A57300915F0C /* Motorcycle.swift */; settings = {ASSET_TAGS = (); }; };
-		FBB4BBD61BE2AC8B00915F0C /* Truck.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4BBD51BE2AC8B00915F0C /* Truck.swift */; settings = {ASSET_TAGS = (); }; };
+		FBB4BBD81BE2B96B00915F0C /* UIAlertController+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4BBD71BE2B96B00915F0C /* UIAlertController+Convenience.swift */; settings = {ASSET_TAGS = (); }; };
+		FBB4BBDA1BE2BAC300915F0C /* Truck.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4BBD91BE2BAC300915F0C /* Truck.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +44,8 @@
 		5DC89C8219BE289D00A75324 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		FBB4BBD11BE2927100915F0C /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		FBB4BBD31BE2A57300915F0C /* Motorcycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Motorcycle.swift; sourceTree = "<group>"; };
-		FBB4BBD51BE2AC8B00915F0C /* Truck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Truck.swift; path = ../Truck.swift; sourceTree = "<group>"; };
+		FBB4BBD71BE2B96B00915F0C /* UIAlertController+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Convenience.swift"; sourceTree = "<group>"; };
+		FBB4BBD91BE2BAC300915F0C /* Truck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Truck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,11 +88,12 @@
 			isa = PBXGroup;
 			children = (
 				5DC89C6319BE274D00A75324 /* AppDelegate.swift */,
-				FBB4BBD51BE2AC8B00915F0C /* Truck.swift */,
+				FBB4BBD91BE2BAC300915F0C /* Truck.swift */,
 				FBB4BBD11BE2927100915F0C /* Car.swift */,
 				FBB4BBD31BE2A57300915F0C /* Motorcycle.swift */,
 				5DC89C8219BE289D00A75324 /* Vehicle.swift */,
 				5DC89C6519BE274D00A75324 /* VehicleListTableViewController.swift */,
+				FBB4BBD71BE2B96B00915F0C /* UIAlertController+Convenience.swift */,
 				5DC89C6719BE274D00A75324 /* VehicleDetailViewController.swift */,
 				5DC89C6919BE274D00A75324 /* Main.storyboard */,
 				5DC89C6C19BE274D00A75324 /* Images.xcassets */,
@@ -225,13 +228,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBB4BBD81BE2B96B00915F0C /* UIAlertController+Convenience.swift in Sources */,
 				5DC89C8319BE289D00A75324 /* Vehicle.swift in Sources */,
 				5DC89C6819BE274D00A75324 /* VehicleDetailViewController.swift in Sources */,
 				FBB4BBD21BE2927100915F0C /* Car.swift in Sources */,
 				5DC89C6619BE274D00A75324 /* VehicleListTableViewController.swift in Sources */,
 				FBB4BBD41BE2A57300915F0C /* Motorcycle.swift in Sources */,
 				5DC89C6419BE274D00A75324 /* AppDelegate.swift in Sources */,
-				FBB4BBD61BE2AC8B00915F0C /* Truck.swift in Sources */,
+				FBB4BBDA1BE2BAC300915F0C /* Truck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
