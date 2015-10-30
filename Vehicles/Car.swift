@@ -10,14 +10,21 @@ import Foundation
 
 class Car : Vehicle {
     
-    var isConvertible:Bool = false
-    var isHatchback:Bool = false
-    var hasSunroof:Bool = false
-    var numberOfDoors:Int = 0
+    let isConvertible: Bool
+    let isHatchback: Bool
+    let hasSunroof: Bool
+    let numberOfDoors: Int
     
-    override init() {
-        super.init()
-        numberOfWheels = 4
+    init(brandName: String, modelName: String, modelYear: Int, powerSource: String,
+        isConvertible: Bool, isHatchback: Bool, hasSunroof: Bool, numberOfDoors: Int) {
+            
+        self.isConvertible = isConvertible
+        self.isHatchback = isHatchback
+        self.hasSunroof = hasSunroof
+        self.numberOfDoors = numberOfDoors
+        
+        super.init(brandName: brandName, modelName: modelName, modelYear: modelYear,
+            powerSource: powerSource, numberOfWheels: 4)
     }
     
     // MARK: - Private method implementations

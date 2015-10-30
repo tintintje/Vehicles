@@ -10,11 +10,21 @@ import Foundation
 
 class Vehicle
 {
-    var brandName = "null"
-    var modelName = "null"
-    var modelYear = 0
-    var powerSource = "null"
-    var numberOfWheels = 0
+    let brandName: String
+    let modelName: String
+    let modelYear: Int
+    let powerSource: String
+    let numberOfWheels: Int
+    
+    // Mark: - Initialization Methods
+    
+    init(brandName:String, modelName:String, modelYear:Int, powerSource:String, numberOfWheels:Int) {
+        self.brandName = brandName
+        self.modelName = modelName
+        self.modelYear = modelYear
+        self.powerSource = powerSource
+        self.numberOfWheels = numberOfWheels
+    }
 
     func goForward() -> String {
         return "null"
@@ -65,5 +75,6 @@ class Vehicle
         details += "# of wheels: \(numberOfWheels)\n"
         return details
     }
+    
 }
 
