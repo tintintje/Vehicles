@@ -78,3 +78,11 @@ class Vehicle
     
 }
 
+// MARK: An extension to make Vehicle printable
+
+extension Vehicle : CustomStringConvertible {
+    var description:String {
+        return vehicleTitle + "\n" + vehicleDetails
+    }
+}
+
