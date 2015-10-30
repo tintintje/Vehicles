@@ -19,6 +19,7 @@
 		FBB4BBD81BE2B96B00915F0C /* UIAlertController+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4BBD71BE2B96B00915F0C /* UIAlertController+Convenience.swift */; settings = {ASSET_TAGS = (); }; };
 		FBB4BBDA1BE2BAC300915F0C /* Truck.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4BBD91BE2BAC300915F0C /* Truck.swift */; settings = {ASSET_TAGS = (); }; };
 		FBB4BC181BE41A3F00915F0C /* VehicleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4BC171BE41A3F00915F0C /* VehicleList.swift */; settings = {ASSET_TAGS = (); }; };
+		FBB4BC1A1BE41EC100915F0C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FBB4BC191BE41EC100915F0C /* README.md */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		FBB4BBD71BE2B96B00915F0C /* UIAlertController+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Convenience.swift"; sourceTree = "<group>"; };
 		FBB4BBD91BE2BAC300915F0C /* Truck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Truck.swift; sourceTree = "<group>"; };
 		FBB4BC171BE41A3F00915F0C /* VehicleList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VehicleList.swift; path = ../VehicleList.swift; sourceTree = "<group>"; };
+		FBB4BC191BE41EC100915F0C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		5DC89C5519BE274D00A75324 = {
 			isa = PBXGroup;
 			children = (
+				FBB4BC191BE41EC100915F0C /* README.md */,
 				5DC89C6019BE274D00A75324 /* Vehicles */,
 				5DC89C7519BE274D00A75324 /* VehiclesTests */,
 				5DC89C5F19BE274D00A75324 /* Products */,
@@ -233,6 +236,7 @@
 			files = (
 				FBB4BBD81BE2B96B00915F0C /* UIAlertController+Convenience.swift in Sources */,
 				5DC89C8319BE289D00A75324 /* Vehicle.swift in Sources */,
+				FBB4BC1A1BE41EC100915F0C /* README.md in Sources */,
 				5DC89C6819BE274D00A75324 /* VehicleDetailViewController.swift in Sources */,
 				FBB4BC181BE41A3F00915F0C /* VehicleList.swift in Sources */,
 				FBB4BBD21BE2927100915F0C /* Car.swift in Sources */,
